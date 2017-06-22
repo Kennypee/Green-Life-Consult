@@ -1,0 +1,104 @@
+@media screen and (min-width: 480px) {
+      
+/***************************
+   Two page layout
+****************************/
+
+    #primary {
+        width: 50%;
+        float: left;
+    }
+    #secondary {
+        width: 40%;
+        float: right;
+    }
+
+/***************************
+   page portfolio
+****************************/
+
+    
+#gallery li {
+    width: 28.333333%;
+}
+#gallery li:nth-child(4n) {
+    clear: left;
+}
+#button{
+
+    width: 50%;
+    margin-left: 25%;
+    height: 10%;
+    
+border-color: #73AD21
+
+
+}
+
+/***************************
+   page About
+****************************/
+
+.profile-photo {
+    float: inherit;
+    /*margin: 0 5% 80px 0;*/
+    
+}
+
+.profile-photos {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;
+}
+        
+}
+
+@media screen and (min-width: 660px) {
+
+/***************************
+   HEADER
+****************************/
+nav {
+    background: none;
+    float: right;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: right;
+    width: 65%;
+}
+#logo {
+    float:  left;
+    margin-left:  5;
+    text-align: left;
+    width: 15%;
+    
+}
+h1 {
+    font-size: 2.5em;
+    font-family: serif;
+    
+}
+h2 {
+    color: black;
+    font-size: 1.0em;
+    margin-bottom: 20px;
+}
+
+p{
+
+    color: white;
+}
+header {
+    border-bottom: 5px solid #599a68;
+    margin-bottom: 2%;
+}
+     }
+
+
+
+
+
+
+
